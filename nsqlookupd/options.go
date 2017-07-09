@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/nsqio/nsq/internal/lg"
+	"github.com/DataDog/nsq/internal/lg"
 )
 
 type Options struct {

@@ -19,14 +19,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nsqio/nsq/internal/clusterinfo"
-	"github.com/nsqio/nsq/internal/dirlock"
-	"github.com/nsqio/nsq/internal/http_api"
-	"github.com/nsqio/nsq/internal/lg"
-	"github.com/nsqio/nsq/internal/protocol"
-	"github.com/nsqio/nsq/internal/statsd"
-	"github.com/nsqio/nsq/internal/util"
-	"github.com/nsqio/nsq/internal/version"
+	"github.com/DataDog/nsq/internal/clusterinfo"
+	"github.com/DataDog/nsq/internal/dirlock"
+	"github.com/DataDog/nsq/internal/http_api"
+	"github.com/DataDog/nsq/internal/lg"
+	"github.com/DataDog/nsq/internal/protocol"
+	"github.com/DataDog/nsq/internal/statsd"
+	"github.com/DataDog/nsq/internal/util"
+	"github.com/DataDog/nsq/internal/version"
 )
 
 const (

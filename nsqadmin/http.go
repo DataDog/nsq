@@ -17,11 +17,11 @@ import (
 	"time"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/nsqio/nsq/internal/clusterinfo"
-	"github.com/nsqio/nsq/internal/http_api"
-	"github.com/nsqio/nsq/internal/lg"
-	"github.com/nsqio/nsq/internal/protocol"
-	"github.com/nsqio/nsq/internal/version"
+	"github.com/DataDog/nsq/internal/clusterinfo"
+	"github.com/DataDog/nsq/internal/http_api"
+	"github.com/DataDog/nsq/internal/lg"
+	"github.com/DataDog/nsq/internal/protocol"
+	"github.com/DataDog/nsq/internal/version"
 )
 
 func maybeWarnMsg(msgs []string) string {

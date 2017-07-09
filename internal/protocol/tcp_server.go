@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/nsqio/nsq/internal/lg"
+	"github.com/DataDog/nsq/internal/lg"
 )
 
 type TCPHandler interface {

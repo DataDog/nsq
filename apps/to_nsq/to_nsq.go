@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/nsqio/go-nsq"
-	"github.com/nsqio/nsq/internal/app"
-	"github.com/nsqio/nsq/internal/version"
+	"github.com/DataDog/nsq/internal/app"
+	"github.com/DataDog/nsq/internal/version"
 )
 
 var (
